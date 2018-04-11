@@ -1,0 +1,110 @@
+#heading{
+      margin-top:30px;
+      text-align:center;
+      font-size: 60px;
+    font-family:Algerian;
+    color:yellow;
+}
+.main-header in-header{
+    border: none 2px #fff;
+    background-color:#ffffff1c;
+}
+.main-footer{
+   text-align:right;
+    color:orange;
+    border: inset 3px white;
+     font-size: 60px;
+     background-color:gray;
+     font-family:Algerian;
+}
+#small-footer{
+   font-size: 30px;
+    text-align:right;
+    color:#fff;
+}
+body{
+background-image:url("bgimage (1).jpg");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+}
+#small-content{
+  color:red;
+}
+form{
+border-radius:10px;
+margin-top:100px;
+padding:7px;
+background-color: azure;
+}
+#geomap{
+  border: none 2px #ffffff1c;
+  height:600px;
+  background-color:#d5edff;
+}
+#second-clmn{
+  border: none 2px #ffffff1c;
+  height:600px;
+  background-color:#d5edff;
+}
+#second-clmn h3{
+    color:blue;
+    font-size:35px;
+}
+#small-footer1{
+   font-size: 30px;
+    text-align:right;
+    color:#fff;
+}
+#heading1{
+      margin-top:10px;
+      margin-bottom:10px;
+      text-align:center;
+      font-size: 35px;
+    font-family:Algerian;
+    color :firebrick;
+}
+#small-footer{
+   font-size: 30px;
+    text-align:left;
+    color:#fff;
+}
+.sec-content1{
+  border-right: solid 5px #ffffff1c;
+  height:500px;
+  background-color:#ffffff1c;
+  padding-top: 30px;
+}
+.sec-content2{
+  border-right: solid 2px red;
+  height:500px;
+  background-color:#ffffff1c;
+}
+#logout1{
+  border-right: solid 0px #ffffff1c;
+  height:600px;
+  background-color:#ffffff1c;
+}
+.sec-content2 p{
+  font-size: 40px;
+  color:red;
+  animation: blinker 1s linear infinite;
+}
+  @keyframes blinker{
+    0%{opacity: 1;}
+    75%{opacity: 1;}
+    76%{opacity: 0;}
+    100%{opacity: 0;}
+  }
+#logout1 h4{
+  font-size: 40px;
+  color:green;
+  animation: blinker 1s linear infinite;
+}
+  @keyframes blinker{
+    0%{opacity: 1;}
+    75%{opacity: 1;}
+    76%{opacity: 0;}
+    100%{opacity: 0;}
+  }
+  
